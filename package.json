@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-kdu-helper-json",
+  "version": "1.0.2",
+  "description": "Bootstrap-Kdu/Kducode intellisense reference definitions.",
+  "main": "tags.json",
+  "scripts": {
+    "build": "scripts/generate-kducode-helpers.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanhduy1407/bootstrap-kdu-helper-json.git"
+  },
+  "keywords": [
+    "plugin",
+    "kducode"
+  ],
+  "author": "NKDuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khanhduy1407/bootstrap-kdu-helper-json/issues"
+  },
+  "homepage": "https://github.com/khanhduy1407/bootstrap-kdu-helper-json",
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "kdu": "^2.5.13"
+  }
+}
